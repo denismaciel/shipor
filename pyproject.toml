@@ -1,0 +1,15 @@
+[project]
+name = "shipor"
+version = "1.0.0"
+dependencies = []
+
+[project.scripts]
+shipor = "shipor.main:cli"
+
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-asyncio",
+  "pip-tools"
+]
